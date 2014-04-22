@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+                         $$$$$$$$$$$$$$$
+                      $$$$$$        $$  $$$$
+                     $$$             $     $$$
+                   $$$$$$$          $$$      $$$
+                  $$$$ $$$$        $$          $$$
+                 $$$      $$       $            $$$
+     FFFF       $$$$     $$                $$$    $$
+    UUUUUU     $$$  $$$$$$              $$$$$$$$$  $$
+               $$$                     $$     $$$  $$
+               $$    $$$$$$$$$         $$      $$  $$
+                $$ $$  $$$ $$$$$$$$$     $$$$$$    $$
+                 $ $$      $$$  $$  $$$           $$
+  $$$             $$$              $$  $$        $$$
+   $$$$             $$$$$$$            $$      $$$
+ $$$$$$$$$$$         $$$  $$$$$       $$     $$$$
+    $$$  $$$$$$$$$   $$$     $$$$$   $$  $$$$$
+  $$$$        $$$$$$$$$$$$$$$    $$$$$$$$$$$$
+ $$$$               $$$     $$$$$$$$$$$
+      $$           $$$            $$$
+        $$        $$$            $$$
+        $$$$$$$$$$$$$$$$$$       $$$
+     $$$$$$$$     $$$$$$$$$$$$$  $$
+        $$$$      $$$            $$
+       $$$        $$            $$$
+                  $$            $$$
+                  $$$$$$$$$$$$$$$$$
+                   $$$$$$$$$$$$$$$
+                     $$$       $$$
+                    $$$         $$$
+                   $$$           $$$
+                  $$$             $$$
+                 $$$               $$$
+                $$$                 $$$
+               $$$                   $$$
+            $$$$$                    $$$$
+           $$$$$$                    $$$
+                                   $$$$
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Menu item text to take user to the screen with matrices -->
+    <!-- 带用户进入矩阵界面的菜单条目文字 -->
+    <string name="matrix">Matrix panel</string>
+    <!-- Menu item text to take user to the screen with the graph -->
+    <!-- 带用户进入图表界面的菜单条目文字 -->
+    <string name="graph">Graph panel</string>
+    <!-- Menu item text to take user to the screen with the function operators -->
+    <!-- 带用户进入函数界面的菜单条目文字 -->
+    <string name="function">Function panel</string>
+    <!-- Menu item text to take user to the screen with the hex digits and operators -->
+    <!-- 带用户进入十六进制数位计算界面的菜单条目文字 -->
+    <string name="hexPanel">Hex panel</string>
+    <!-- Menu item text to lock view pager -->
+    <!-- 锁定当前页面的菜单条目文字 -->
+    <string name="lock">Lock page</string>
+    <!-- Menu item text to unlock view pager -->
+    <!-- 解锁当前页面的菜单条目文字 -->
+    <string name="unlock">Unlock page</string>
+    <!-- Menu item to take user to the screen with settings -->
+    <!-- 带用户进入设置界面的菜单条目文字 -->
+    <string name="settings">Settings</string>
+
+    <!-- Plus sign/unicode minus sign, displayed as button on screen -->
+    <!-- 加号/统一码减号, 作为按钮显示 -->
+    <string name="sign" translatable="false">+/\u2212</string>
+    <!-- Comma sign, displayed as button on screen -->
+    <!-- 逗号, 作为按钮显示 -->
+    <string name="comma" translatable="false">,</string>
+
+    <!-- Displayed letters for the hex digit buttons -->
+    <!-- 十六进制数位按钮显示的字母 -->
+    <string name="A" translatable="false">A</string>
+    <string name="B" translatable="false">B</string>
+    <string name="C" translatable="false">C</string>
+    <string name="D" translatable="false">D</string>
+    <string name="E" translatable="false">E</string>
+    <string name="F" translatable="false">F</string>
+    <!-- Displayed letters for the variable digit buttons -->
+    <!-- 变量数位按钮显示的字母 -->
+    <string name="X">X</string>
+    <string name="Y">Y</string>
+
+    <!-- Arcsin function, displayed as button on screen -->
+    <!-- 反正弦函数, 作为按钮显示 -->
+    <string name="arcsin">asin</string>
+    <!-- Arccos function, displayed as button on screen -->
+    <!-- 反余弦函数, 作为按钮显示 -->
+    <string name="arccos">acos</string>
+    <!-- Arctan function, displayed as button on screen -->
+    <!-- 反正切函数, 作为按钮显示 -->
+    <string name="arctan">atan</string>
+
+    <!-- Value of i, displayed as button on screen -->
+    <!-- i的值, 作为按钮显示 -->
+    <string name="i" translatable="false">i</string>
+    <!-- Percent function, displayed as button on screen -->
+    <!-- 百分比函数, 作为按钮显示 -->
+    <string name="percentage" translatable="false">%</string>
+    <!-- (Hidden) Integral function, displayed as button on screen -->
+    <!-- (隐藏) 积分函数, 作为按钮显示 -->
+    <string name="integral" translatable="false">\u222B</string>
+    <string name="dx">dX</string>
+    <string name="dy">dY</string>
+    <!-- (Hidden) Solve for X, displayed as button on screen -->
+    <!-- (隐藏) X的解, 作为按钮显示 -->
+    <string name="solveForX">Solve for X</string>
+    <!-- (Hidden) Solve for Y, displayed as button on screen -->
+    <!-- (隐藏) Y的解, 作为按钮显示 -->
+    <string name="solveForY">Solve for Y</string>
+    <!-- (Hidden) Modulo function, displayed as button on screen -->
+    <!-- (隐藏) 模函数, 作为按钮显示 -->
+    <string name="mod">mod</string>
+    <!-- Cube root function, displayed as button on screen -->
+    <!-- 立方根函数, 作为按钮显示 -->
+    <string name="cbrt" translatable="false">\u00b3\u221a</string>
+    <!-- Parentheses, displayed as button on screen -->
+    <!-- 括号, 作为按钮显示 -->
+    <string name="parentheses" translatable="false">( )</string>
+
+    <!-- History menu item for copying item from history -->
+    <!-- 历史界面中用以从历史记录中复制项目的菜单条目文字 -->
+    <string name="copy">Copy \'%s\'</string>
+    <!-- History menu item for removing item from history -->
+    <!-- 历史界面中用以从历史记录中移除项目的菜单条目文字 -->
+    <string name="remove_from_history">Remove from history</string>
+    <!-- History menu item for viewing history -->
+    <!-- 主界面中用以显示历史记录中的菜单条目文字 -->
+    <string name="showHistory">Show history</string>
+    <!-- History menu item for hiding history -->
+    <!-- 主界面中用以隐藏历史记录中的菜单条目文字 -->
+    <string name="hideHistory">Hide history</string>
+
+    <!-- Clings text -->
+    <!-- 小贴士文字 -->
+    <string name="cling_simple_title">Welcome</string>
+    <string name="cling_simple_msg">Slide left and right to access more content. Unnecessary pages can be disabled in Settings.</string>
+    <string name="cling_matrix_title">Matrices</string>
+    <string name="cling_matrix_msg">Tap here to start building and solving matrices.</string>
+    <string name="cling_hex_title">Change bases</string>
+    <string name="cling_hex_msg">Switch between decimal (dec), binary (bin), and hexadecimal (hex).\n\nWarning: If you believe you\'re getting bad results, you\'re probably in the wrong base. The default is decimal.</string>
+    <string name="cling_graph_title">Graph</string>
+    <string name="cling_graph_msg">Graphs will automatically show up here. Go to the advanced panel and build a function using X and Y.</string>
+    <string name="cling_dismiss">OK</string>
+
+    <!-- Settings page text -->
+    <!-- 设置界面文字 -->
+    <string name="pref_panels">Panels</string>
+    <string name="pref_actions">Actions</string>
+    <string name="pref_units">Units</string>
+    <string name="pref_theme">Theme</string>
+    <string name="pref_about">About</string>
+    <string name="returnToBasic">Return to the basic panel</string>
+    <string name="clickToOpenHistory">Click to open history</string>
+    <string name="digitGrouping">Digit grouping</string>
+    <string name="trigUnits">Trig units</string>
+    <string name="radians">RAD</string>
+    <string name="degrees">DEG</string>
+    <string name="holo">Holo</string>
+    <string name="holo_light">Light</string>
+    <string name="holo_dark">Dark</string>
+
+    <!-- Hex page text -->
+    <!-- 十六进制数位计算界面文字 -->
+    <string name="hex">Hex</string>
+    <string name="bin">Bin</string>
+    <string name="dec">Dec</string>
+    <string name="hexDesc">Hexadecimal</string>
+    <string name="binDesc">Binary</string>
+    <string name="decDesc">Decimal</string>
+
+    <!-- Matrix page text -->
+    <!-- 矩阵界面文字 -->
+    <string name="det">det</string>
+    <string name="eigenvalue">Eigen</string>
+    <string name="solve">Solve</string>
+    <string name="dotProduct">Dot</string>
+    <string name="crossProduct">Cross</string>
+    <string name="determinantDesc">det</string>
+    <string name="eigenvalueDesc">Eigenvalues</string>
+    <string name="plus_row">+Row</string>
+    <string name="minus_row">-Row</string>
+    <string name="plus_col">+Col</string>
+    <string name="minus_col">-Col</string>
+    <string name="matrix_new" translatable="false">[ ]</string>
+    <string name="matrix_inverse" translatable="false">-1</string>
+    <string name="matrix_transpose">T</string>
+    <string name="next">Next</string>
+
+    <!-- Easter egg text -->
+    <!-- 彩蛋文字 -->
+    <string name="easter_egg">Magikarp used Splash but nothing happened.</string>
+
+    <!-- Separators for dec, bin, and hex (Must be one charater) -->
+    <!-- 十进制, 二进制, 十六进制的分隔符 (必须为一个字符) -->
+    <string name="dec_separator">,</string>
+    <string name="bin_separator">\u0020</string>
+    <string name="hex_separator">\u0020</string>
+    <item name="dec_separator_distance" type="integer">3</item>
+    <item name="bin_separator_distance" type="integer">4</item>
+    <item name="hex_separator_distance" type="integer">2</item>
+
+    <!-- Matrix separator (Make sure it's unique from decimal point) -->
+    <!-- 矩阵分隔符 (确保他和小数点采用不同符号) -->
+    <string name="matrix_separator">,</string>
+
+</resources>
