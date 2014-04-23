@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+                         $$$$$$$$$$$$$$$
+                      $$$$$$        $$  $$$$
+                     $$$             $     $$$
+                   $$$$$$$          $$$      $$$
+                  $$$$ $$$$        $$          $$$
+                 $$$      $$       $            $$$
+     FFFF       $$$$     $$                $$$    $$
+    UUUUUU     $$$  $$$$$$              $$$$$$$$$  $$
+               $$$                     $$     $$$  $$
+               $$    $$$$$$$$$         $$      $$  $$
+                $$ $$  $$$ $$$$$$$$$     $$$$$$    $$
+                 $ $$      $$$  $$  $$$           $$
+  $$$             $$$              $$  $$        $$$
+   $$$$             $$$$$$$            $$      $$$
+ $$$$$$$$$$$         $$$  $$$$$       $$     $$$$
+    $$$  $$$$$$$$$   $$$     $$$$$   $$  $$$$$
+  $$$$        $$$$$$$$$$$$$$$    $$$$$$$$$$$$
+ $$$$               $$$     $$$$$$$$$$$
+      $$           $$$            $$$
+        $$        $$$            $$$
+        $$$$$$$$$$$$$$$$$$       $$$
+     $$$$$$$$     $$$$$$$$$$$$$  $$
+        $$$$      $$$            $$
+       $$$        $$            $$$
+                  $$            $$$
+                  $$$$$$$$$$$$$$$$$
+                   $$$$$$$$$$$$$$$
+                     $$$       $$$
+                    $$$         $$$
+                   $$$           $$$
+                  $$$             $$$
+                 $$$               $$$
+                $$$                 $$$
+               $$$                   $$$
+            $$$$$                    $$$$
+           $$$$$$                    $$$
+                                   $$$$
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Menu item text to take user to the screen with matrices -->
+    <!-- 带用户进入矩阵界面的菜单条目文字 -->
+    <string name="matrix">矩阵面板</string>
+    <!-- Menu item text to take user to the screen with the graph -->
+    <!-- 带用户进入图表界面的菜单条目文字 -->
+    <string name="graph">图表面板</string>
+    <!-- Menu item text to take user to the screen with the function operators -->
+    <!-- 带用户进入函数界面的菜单条目文字 -->
+    <string name="function">函数面板</string>
+    <!-- Menu item text to take user to the screen with the hex digits and operators -->
+    <!-- 带用户进入十六进制数位计算界面的菜单条目文字 -->
+    <string name="hexPanel">十六进制面板</string>
+    <!-- Menu item text to lock view pager -->
+    <!-- 锁定当前页面的菜单条目文字 -->
+    <string name="lock">锁定页面</string>
+    <!-- Menu item text to unlock view pager -->
+    <!-- 解锁当前页面的菜单条目文字 -->
+    <string name="unlock">解锁页面</string>
+    <!-- Menu item to take user to the screen with settings -->
+    <!-- 带用户进入设置界面的菜单条目文字 -->
+    <string name="settings">设置</string>
+
+    <!-- Plus sign/unicode minus sign, displayed as button on screen -->
+    <!-- 加号/统一码减号, 作为按钮显示 -->
+    <string name="sign" translatable="false">+/\u2212</string>
+    <!-- Comma sign, displayed as button on screen -->
+    <!-- 逗号, 作为按钮显示 -->
+    <string name="comma" translatable="false">,</string>
+
+    <!-- Displayed letters for the hex digit buttons -->
+    <!-- 十六进制数位按钮显示的字母 -->
+    <string name="A" translatable="false">A</string>
+    <string name="B" translatable="false">B</string>
+    <string name="C" translatable="false">C</string>
+    <string name="D" translatable="false">D</string>
+    <string name="E" translatable="false">E</string>
+    <string name="F" translatable="false">F</string>
+    <!-- Displayed letters for the variable digit buttons -->
+    <!-- 变量数位按钮显示的字母 -->
+    <string name="X">X</string>
+    <string name="Y">Y</string>
+
+    <!-- Arcsin function, displayed as button on screen -->
+    <!-- 反正弦函数, 作为按钮显示 -->
+    <string name="arcsin">asin</string>
+    <!-- Arccos function, displayed as button on screen -->
+    <!-- 反余弦函数, 作为按钮显示 -->
+    <string name="arccos">acos</string>
+    <!-- Arctan function, displayed as button on screen -->
+    <!-- 反正切函数, 作为按钮显示 -->
+    <string name="arctan">atan</string>
+
+    <!-- Value of i, displayed as button on screen -->
+    <!-- i的值, 作为按钮显示 -->
+    <string name="i" translatable="false">i</string>
+    <!-- Percent function, displayed as button on screen -->
+    <!-- 百分比函数, 作为按钮显示 -->
+    <string name="percentage" translatable="false">%</string>
+    <!-- (Hidden) Integral function, displayed as button on screen -->
+    <!-- (隐藏) 积分函数, 作为按钮显示 -->
+    <string name="integral" translatable="false">\u222B</string>
+    <string name="dx">dX</string>
+    <string name="dy">dY</string>
+    <!-- (Hidden) Solve for X, displayed as button on screen -->
+    <!-- (隐藏) X的解, 作为按钮显示 -->
+    <string name="solveForX">X 的解</string>
+    <!-- (Hidden) Solve for Y, displayed as button on screen -->
+    <!-- (隐藏) Y的解, 作为按钮显示 -->
+    <string name="solveForY">Y 的解</string>
+    <!-- (Hidden) Modulo function, displayed as button on screen -->
+    <!-- (隐藏) 模函数, 作为按钮显示 -->
+    <string name="mod">模函数</string>
+    <!-- Cube root function, displayed as button on screen -->
+    <!-- 立方根函数, 作为按钮显示 -->
+    <string name="cbrt" translatable="false">\u00b3\u221a</string>
+    <!-- Parentheses, displayed as button on screen -->
+    <!-- 括号, 作为按钮显示 -->
+    <string name="parentheses" translatable="false">( )</string>
+
+    <!-- History menu item for copying item from history -->
+    <!-- 历史界面中用以从历史记录中复制项目的菜单条目文字 -->
+    <string name="copy">复制 \'%s\'</string>
+    <!-- History menu item for removing item from history -->
+    <!-- 历史界面中用以从历史记录中移除项目的菜单条目文字 -->
+    <string name="remove_from_history">从历史记录中移除</string>
+    <!-- History menu item for viewing history -->
+    <!-- 主界面中用以显示历史记录中的菜单条目文字 -->
+    <string name="showHistory">显示历史记录</string>
+    <!-- History menu item for hiding history -->
+    <!-- 主界面中用以隐藏历史记录中的菜单条目文字 -->
+    <string name="hideHistory">隐藏历史记录</string>
+
+    <!-- Clings text -->
+    <!-- 小贴士文字 -->
+    <string name="cling_simple_title">欢迎使用</string>
+    <string name="cling_simple_msg">左右滑动以访问更多的内容. 不需要的页面可以在设置中被禁用.</string>
+    <string name="cling_matrix_title">矩阵</string>
+    <string name="cling_matrix_msg">点击这里开始建立和求解矩阵.</string>
+    <string name="cling_hex_title">更改进位制</string>
+    <string name="cling_hex_msg">切换十进制(dec), 二进制(bin), 十六进制(hex). \ n\ n警告：如果你相信你得到了错误的结果, 你很可能基于错误的进位制. 默认值是十进制.</string>
+    <string name="cling_graph_title">图表</string>
+    <string name="cling_graph_msg">图表将自动显示在这里. 进入高级面板并建立X和Y的函数.</string>
+    <string name="cling_dismiss">确定</string>
+
+    <!-- Settings page text -->
+    <!-- 设置界面文字 -->
+    <string name="pref_panels">面板</string>
+    <string name="pref_actions">操作</string>
+    <string name="pref_units">单位</string>
+    <string name="pref_theme">主题</string>
+    <string name="pref_about">关于</string>
+    <string name="returnToBasic">返回至基础面板</string>
+    <string name="clickToOpenHistory">点击以打开历史记录</string>
+    <string name="digitGrouping">数组</string>
+    <string name="trigUnits">三角单位</string>
+    <string name="radians">弧度</string>
+    <string name="degrees">角度</string>
+    <string name="holo">Holo</string>
+    <string name="holo_light">浅色</string>
+    <string name="holo_dark">深色</string>
+
+    <!-- Hex page text -->
+    <!-- 十六进制数位计算界面文字 -->
+    <string name="hex">Hex</string>
+    <string name="bin">Bin</string>
+    <string name="dec">Dec</string>
+    <string name="hexDesc">十六进制</string>
+    <string name="binDesc">二进制</string>
+    <string name="decDesc">十进制</string>
+
+    <!-- Matrix page text -->
+    <!-- 矩阵界面文字 -->
+    <string name="det">行列式</string>
+    <string name="eigenvalue">特征值</string>
+    <string name="solve">解</string>
+    <string name="dotProduct">点积</string>
+    <string name="crossProduct">交叉积</string>
+    <string name="determinantDesc">递减行列式</string>
+    <string name="eigenvalueDesc">递减特征值</string>
+    <string name="plus_row">+行</string>
+    <string name="minus_row">-行</string>
+    <string name="plus_col">+列</string>
+    <string name="minus_col">-列</string>
+    <string name="matrix_new" translatable="false">[ ]</string>
+    <string name="matrix_inverse" translatable="false">-1</string>
+    <string name="matrix_transpose">转制</string>
+    <string name="next">下一步</string>
+
+    <!-- Easter egg text -->
+    <!-- 彩蛋文字 -->
+    <string name="easter_egg">鲤鱼顶珠! 哎哟, 逗你玩的拉~</string>
+
+    <!-- Separators for dec, bin, and hex (Must be one charater) -->
+    <!-- 十进制, 二进制, 十六进制的分隔符 (必须为一个字符) -->
+    <string name="dec_separator">,</string>
+    <string name="bin_separator">\u0020</string>
+    <string name="hex_separator">\u0020</string>
+    <item name="dec_separator_distance" type="integer">3</item>
+    <item name="bin_separator_distance" type="integer">4</item>
+    <item name="hex_separator_distance" type="integer">2</item>
+
+    <!-- Matrix separator (Make sure it's unique from decimal point) -->
+    <!-- 矩阵分隔符 (确保他和小数点采用不同符号) -->
+    <string name="matrix_separator">,</string>
+
+</resources>
