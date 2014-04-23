@@ -190,7 +190,7 @@
 
     <!-- Easter egg text -->
     <!-- 彩蛋文字 -->
-    <string name="easter_egg">鲤鱼顶珠! 哎哟, 逗你玩的拉~</string>
+    <string name="easter_egg">鲤鱼顶珠! 哎哟, 逗你玩儿啦~</string>
 
     <!-- Separators for dec, bin, and hex (Must be one charater) -->
     <!-- 十进制, 二进制, 十六进制的分隔符 (必须为一个字符) -->
